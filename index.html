@@ -1,0 +1,3815 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Design Property Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      * { -moz-box-sizing: border-box; box-sizing: border-box; }
+
+      html {
+        background: #fff;
+        color: #444;
+      }
+
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      dl,
+      dd,
+      p { margin: 0; }
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: white;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      ::-moz-selection { background: #b3d4fc; }
+      ::selection { background: #b3d4fc; }
+
+      header,
+      footer,
+      main { display: block; }
+
+      main {
+        margin: 0 -0.5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        padding: 0;
+        font-weight: normal;
+        line-height: 1.2;
+      }
+
+      h1 { font-size: 2em; }
+
+      h2 {
+        margin-top: 0;
+        padding: 1.5em 0 .5em;
+        font-size: 1.5em;
+      }
+
+      h4 { color: #ccc; }
+
+
+      p { padding: .75em 0; }
+
+      a {
+        text-decoration: none;
+        background: transparent;
+      }
+
+      a,
+      a:visited { color: #369; }
+
+      a:focus,
+      a:hover,
+      a:active { color: #036; }
+
+      a:hover,
+      a:active { outline: 0; }
+
+      strong { font-weight: bold; }
+
+      hr {
+        -moz-box-sizing: content-box;
+             box-sizing: content-box;
+        display: block;
+        margin: 1em 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+        padding: 0;
+        height: 1px;
+      }
+
+      code {
+        font-size: 1em;
+        font-family: monospace, monospace;
+      }
+
+      table {
+        border-collapse: separate;
+        border-spacing: 0 .5em;
+        width: 100%;
+      }
+
+
+      th,
+      td {
+        padding: 0 .5em;
+        vertical-align: baseline;
+        -ms-word-break: break-all;
+            word-break: break-all;
+            word-break: break-word;
+        -webkit-hyphens: auto;
+           -moz-hyphens: auto;
+            -ms-hyphens: auto;
+                hyphens: auto;
+      }
+
+      th {
+        font-weight: normal;
+        text-align: left;
+        border-bottom: 1px solid #eee;
+        padding: 1.5em .4em .5em;
+        color: #ccc;
+      }
+
+      th:first-child {
+        color: #333;
+        font-size: 1.5em;
+      }
+
+      .banner,
+      .contentinfo { background: #f5f5f5; }
+
+      .banner { padding: 1em 0; }
+
+      .container {
+        margin: 0 auto;
+        padding: 0 1em;
+        max-width: 80em;
+        overflow: hidden;
+      }
+
+      .example { width: 20em; }
+
+      .description,
+      .contentinfo p { font-size: .75em; }
+
+      .description { width: 26.66666666666667em; }
+
+      .metric-box,
+      .radius-box {
+        display: inline-block;
+        vertical-align: middle;
+        background: #ccc;
+      }
+
+      .radius-box {
+        width: 100%;
+        height: 1.125em;
+      }
+
+      .line-height-example {
+        border-bottom: 1px solid #ccc;
+        background-image: -webkit-linear-gradient(#ccc 1px, transparent 1px);
+        background-image: linear-gradient(#ccc 1px, transparent 1px);
+        background-size: 100% 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header role="banner" class="banner">
+      <div class="container">
+        <h1>Design Attribute Guide</h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <main role="main">
+
+        <table>
+          
+
+          
+          <tr id="text-colors">
+            <th>Text Colors</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          <tr>
+            <td><code>colorTextActionLabel</code></td>
+            <td><code>#66788A (SLATE_GREY)</code></td>
+            <td class="example" style="color: #66788A;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Action label text color</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextActionLabelActive</code></td>
+            <td><code>#686C70 (NEVADA)</code></td>
+            <td class="example" style="color: #686C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Action label active text color</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextAlt</code></td>
+            <td><code>#485C70 (BLUE_BAYOUX)</code></td>
+            <td class="example" style="color: #485C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextBrowser</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="color: #FFFFFF;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Top bar icon color</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextBrowserActive</code></td>
+            <td><code>rgba(0,0,0,.4) (BLACK_TRANSPARENT_40)</code></td>
+            <td class="example" style="color: rgba(0,0,0,.4);">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Top bar active icon color</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextCustomer</code></td>
+            <td><code>#FF9F05 (CALIFORNIA)</code></td>
+            <td class="example" style="color: #FF9F05;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Customer text used in anchor subtitle</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextDefault</code></td>
+            <td><code>#3C3D3E (CAPE_COD)</code></td>
+            <td class="example" style="color: #3C3D3E;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Body text color</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextError</code></td>
+            <td><code>#B5362D (TALL_POPPY)</code></td>
+            <td class="example" style="color: #B5362D;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Error text for inputs and error misc</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextHeadingWeak</code></td>
+            <td><code>#006EB3 (DEEP_CERULEAN)</code></td>
+            <td class="example" style="color: #006EB3;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextHint</code></td>
+            <td><code>#9FAAB5 (CASPER)</code></td>
+            <td class="example" style="color: #9FAAB5;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextInputDisabled</code></td>
+            <td><code>#485C70 (BLUE_BAYOUX)</code></td>
+            <td class="example" style="color: #485C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Input disabled text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextInputFocusInverse</code></td>
+            <td><code>#2A4158 (DARK_GREY_ROYAL_BLUE)</code></td>
+            <td class="example" style="color: #2A4158;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Typed input text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextInputIcon</code></td>
+            <td><code>#9FAAB5 (CASPER)</code></td>
+            <td class="example" style="color: #9FAAB5;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Input icon</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextInverse</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="color: #FFFFFF;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Inverse text color for inverse backgrounds</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextInverseActive</code></td>
+            <td><code>#5EBFFC (MALIBU)</code></td>
+            <td class="example" style="color: #5EBFFC;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextInverseHover</code></td>
+            <td><code>#9FAAB5 (CASPER)</code></td>
+            <td class="example" style="color: #9FAAB5;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextLabel</code></td>
+            <td><code>#686C70 (NEVADA)</code></td>
+            <td class="example" style="color: #686C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Form label text on app bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextLinkActive</code></td>
+            <td><code>#005C94 (BAHAMA_BLUE)</code></td>
+            <td class="example" style="color: #005C94;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Active link text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextLinkDisabled</code></td>
+            <td><code>#66788A (SLATE_GREY)</code></td>
+            <td class="example" style="color: #66788A;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextLinkHover</code></td>
+            <td><code>#005C94 (BAHAMA_BLUE)</code></td>
+            <td class="example" style="color: #005C94;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Hover link text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextModal</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="color: #FFFFFF;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Modal header title</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextModalButton</code></td>
+            <td><code>#686C70 (NEVADA)</code></td>
+            <td class="example" style="color: #686C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Modal header button text color</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextLink</code></td>
+            <td><code>#006EB3 (DEEP_CERULEAN)</code></td>
+            <td class="example" style="color: #006EB3;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Link text (508)</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextPlaceholder</code></td>
+            <td><code>#66788A (SLATE_GREY)</code></td>
+            <td class="example" style="color: #66788A;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Input placeholder text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextPlaceholderInverse</code></td>
+            <td><code>#DADEE2 (GEYSER)</code></td>
+            <td class="example" style="color: #DADEE2;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Anchor subtitle</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextSecondaryButton</code></td>
+            <td><code>#485C70 (BLUE_BAYOUX)</code></td>
+            <td class="example" style="color: #485C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Secondary btn text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextSelectionHover</code></td>
+            <td><code>#2A94D6 (CURIOUS_BLUE)</code></td>
+            <td class="example" style="color: #2A94D6;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextStageLeft</code></td>
+            <td><code>#DADEE2 (GEYSER)</code></td>
+            <td class="example" style="color: #DADEE2;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Various stage left text elements</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextWarning</code></td>
+            <td><code>#E6B739 (TULIP_TREE)</code></td>
+            <td class="example" style="color: #E6B739;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">Alert warning icon</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorTextWeak</code></td>
+            <td><code>#686C70 (NEVADA)</code></td>
+            <td class="example" style="color: #686C70;">The quick brown fox jumps over the lazy dog.</td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+          <tr id="background-colors">
+            <th>Background Colors</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>colorBackground</code></td>
+            <td><code>#F0F1F2 (PALE_ROYAL_BLUE)</code></td>
+            <td class="example" style="background-color: #F0F1F2;"></td>
+            <td class="description">S1 app background</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundActiveInverse</code></td>
+            <td><code>#F5F6F7 (PORCELAIN)</code></td>
+            <td class="example" style="background-color: #F5F6F7;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundAlt</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="background-color: #FFFFFF;"></td>
+            <td class="description">Global use, card bgd, lists, action bar and overflow</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundAltInverse</code></td>
+            <td><code>#2A4158 (DARK_GREY_ROYAL_BLUE)</code></td>
+            <td class="example" style="background-color: #2A4158;"></td>
+            <td class="description">Stage left org switcher area bgd and seperators</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundAnchor</code></td>
+            <td><code>#34495E (GREY_ROYAL_BLUE)</code></td>
+            <td class="example" style="background-color: #34495E;"></td>
+            <td class="description">Anchor bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundBrowser</code></td>
+            <td><code>#66788A (SLATE_GREY)</code></td>
+            <td class="example" style="background-color: #66788A;"></td>
+            <td class="description">Secondary top bar bgd (child browser, file preview, etc.)</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundBrowserActive</code></td>
+            <td><code>#F5F6F7 (PORCELAIN)</code></td>
+            <td class="example" style="background-color: #F5F6F7;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonBrand</code></td>
+            <td><code>#2A94D6 (CURIOUS_BLUE)</code></td>
+            <td class="example" style="background-color: #2A94D6;"></td>
+            <td class="description">Brandable primary button</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonBrandActive</code></td>
+            <td><code>#137CBD (LOCHMARA)</code></td>
+            <td class="example" style="background-color: #137CBD;"></td>
+            <td class="description">Brandable active primary button</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonBrandHover</code></td>
+            <td><code>#137CBD (LOCHMARA)</code></td>
+            <td class="example" style="background-color: #137CBD;"></td>
+            <td class="description">Brandable hover primary button</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonComment</code></td>
+            <td><code>#137CBD (LOCHMARA)</code></td>
+            <td class="example" style="background-color: #137CBD;"></td>
+            <td class="description">Comment Publisher button bgd (508)</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonCommentActive</code></td>
+            <td><code>#006EB3 (DEEP_CERULEAN)</code></td>
+            <td class="example" style="background-color: #006EB3;"></td>
+            <td class="description">Comment Publisher button active bgd (508)</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundDisabled</code></td>
+            <td><code>#F0F1F2 (PALE_ROYAL_BLUE)</code></td>
+            <td class="example" style="background-color: #F0F1F2;"></td>
+            <td class="description">Disabled grey buttons.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonInverse</code></td>
+            <td><code>rgba(0,0,0,.16) (BLACK_TRANSPARENT_16)</code></td>
+            <td class="example" style="background-color: rgba(0,0,0,.16);"></td>
+            <td class="description">Button backgrounds on inverse backgrounds</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundButtonInverseActive</code></td>
+            <td><code>rgba(0,0,0,.24) (BLACK_TRANSPARENT_24)</code></td>
+            <td class="example" style="background-color: rgba(0,0,0,.24);"></td>
+            <td class="description">Active button backgrounds on inverse backgrounds</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundCustomer</code></td>
+            <td><code>#FF9F05 (CALIFORNIA)</code></td>
+            <td class="example" style="background-color: #FF9F05;"></td>
+            <td class="description">Customer bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundError</code></td>
+            <td><code>#B5362D (TALL_POPPY)</code></td>
+            <td class="example" style="background-color: #B5362D;"></td>
+            <td class="description">Minus error icon</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundErrorAlt</code></td>
+            <td><code>#D68184 (NEW_YORK_PINK)</code></td>
+            <td class="example" style="background-color: #D68184;"></td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundHighlight</code></td>
+            <td><code>#FFEC70 (KOURNIKOVA)</code></td>
+            <td class="example" style="background-color: #FFEC70;"></td>
+            <td class="description">Highlight text</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundIconUtility</code></td>
+            <td><code>#8595A6 (REGENT_GREY)</code></td>
+            <td class="example" style="background-color: #8595A6;"></td>
+            <td class="description">Action bar utility icon background</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundIndicatorDot</code></td>
+            <td><code>#9FAAB5 (CASPER)</code></td>
+            <td class="example" style="background-color: #9FAAB5;"></td>
+            <td class="description">Indicator dot</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundInput</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="background-color: #FFFFFF;"></td>
+            <td class="description">Default input field</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundInputActive</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="background-color: #FFFFFF;"></td>
+            <td class="description">Focused input field</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundInputDisabled</code></td>
+            <td><code>#DADEE2 (GEYSER)</code></td>
+            <td class="example" style="background-color: #DADEE2;"></td>
+            <td class="description">Disabled input</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundInputError</code></td>
+            <td><code>#F6E4E4 (POT_POURRI)</code></td>
+            <td class="example" style="background-color: #F6E4E4;"></td>
+            <td class="description">Input field error</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundInputSearch</code></td>
+            <td><code>rgba(0,0,0,.16) (BLACK_TRANSPARENT_16)</code></td>
+            <td class="example" style="background-color: rgba(0,0,0,.16);"></td>
+            <td class="description">Only seen on object home</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundInverse</code></td>
+            <td><code>#34495E (GREY_ROYAL_BLUE)</code></td>
+            <td class="example" style="background-color: #34495E;"></td>
+            <td class="description">Stage left list items</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundModal</code></td>
+            <td><code>#FFFFFF (WHITE)</code></td>
+            <td class="example" style="background-color: #FFFFFF;"></td>
+            <td class="description">Standard modal header</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundModalBrand</code></td>
+            <td><code>#2A94D6 (CURIOUS_BLUE)</code></td>
+            <td class="example" style="background-color: #2A94D6;"></td>
+            <td class="description">Brandable modal header</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundModalButton</code></td>
+            <td><code>rgba(0,0,0,.07) (BLACK_TRANSPARENT_07)</code></td>
+            <td class="example" style="background-color: rgba(0,0,0,.07);"></td>
+            <td class="description">Button backgrounds on modal headers</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundModalButtonActive</code></td>
+            <td><code>rgba(0,0,0,.16) (BLACK_TRANSPARENT_16)</code></td>
+            <td class="example" style="background-color: rgba(0,0,0,.16);"></td>
+            <td class="description">Active button backgrounds on modal headers</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundNotificationBadge</code></td>
+            <td><code>#C06057 (FUZZY_WUZZY_BROWN)</code></td>
+            <td class="example" style="background-color: #C06057;"></td>
+            <td class="description">Notifications number badge bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundNotificationNew</code></td>
+            <td><code>#F0F8FC (FOAM)</code></td>
+            <td class="example" style="background-color: #F0F8FC;"></td>
+            <td class="description">New notification bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundOrgSwitcherArrow</code></td>
+            <td><code>#253647 (PICKLED_BLUEWOOD)</code></td>
+            <td class="example" style="background-color: #253647;"></td>
+            <td class="description">Stage left org switcher drop ^ bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundPayload</code></td>
+            <td><code>#F5F6F7 (PORCELAIN)</code></td>
+            <td class="example" style="background-color: #F5F6F7;"></td>
+            <td class="description">Payload bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundShade</code></td>
+            <td><code>#E4ECF4 (CATSKILL_WHITE)</code></td>
+            <td class="example" style="background-color: #E4ECF4;"></td>
+            <td class="description">Visual app builder background</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundSuccess</code></td>
+            <td><code>#43B66A (CHATEAU_GREEN)</code></td>
+            <td class="example" style="background-color: #43B66A;"></td>
+            <td class="description">Check success icon</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundTempModal</code></td>
+            <td><code>rgba(37,54,71,.8) (PICKLED_BLUEWOOD_TRANSPARENT_80)</code></td>
+            <td class="example" style="background-color: rgba(37,54,71,.8);"></td>
+            <td class="description">Progress spinner bgd, user assistance bubble bgd, read only msg bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundTempModalTint</code></td>
+            <td><code>rgba(37,54,71,.3) (PICKLED_BLUEWOOD_TRANSPARENT_30)</code></td>
+            <td class="example" style="background-color: rgba(37,54,71,.3);"></td>
+            <td class="description">Action overflow shade for overlay.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundToast</code></td>
+            <td><code>rgba(255,255,255,.97) (WHITE_TRANSPARENT_97)</code></td>
+            <td class="example" style="background-color: rgba(255,255,255,.97);"></td>
+            <td class="description">toast bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBackgroundWarning</code></td>
+            <td><code>#E6B739 (TULIP_TREE)</code></td>
+            <td class="example" style="background-color: #E6B739;"></td>
+            <td class="description">Warning background color — do we actually use this?</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBrand</code></td>
+            <td><code>#2A94D6 (CURIOUS_BLUE)</code></td>
+            <td class="example" style="background-color: #2A94D6;"></td>
+            <td class="description">Brandable header</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          <tr id="border-color">
+            <th>Border Colors</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>colorBorder</code></td>
+            <td><code>#F5F6F7 (PORCELAIN)</code></td>
+            <td class="example" style="border: 2px solid #F5F6F7;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderBrand</code></td>
+            <td><code>#137CBD (LOCHMARA)</code></td>
+            <td class="example" style="border: 2px solid #137CBD;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderButtonBrowser</code></td>
+            <td><code>#DADEE2 (GEYSER)</code></td>
+            <td class="example" style="border: 2px solid #DADEE2;"></td>
+            <td class="description">Seconadary btn and primary/secondary disabled</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderHint</code></td>
+            <td><code>#3C3D3E (CAPE_COD)</code></td>
+            <td class="example" style="border: 2px solid #3C3D3E;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderInput</code></td>
+            <td><code>transparent (TRANSPARENT)</code></td>
+            <td class="example" style="border: 2px solid transparent;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderInputActive</code></td>
+            <td><code>transparent (TRANSPARENT)</code></td>
+            <td class="example" style="border: 2px solid transparent;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSelection</code></td>
+            <td><code>#006EB3 (DEEP_CERULEAN)</code></td>
+            <td class="example" style="border: 2px solid #006EB3;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSelectionActive</code></td>
+            <td><code>#F0F1F2 (PALE_ROYAL_BLUE)</code></td>
+            <td class="example" style="border: 2px solid #F0F1F2;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSelectionHover</code></td>
+            <td><code>#2A94D6 (CURIOUS_BLUE)</code></td>
+            <td class="example" style="border: 2px solid #2A94D6;"></td>
+            <td class="description">???</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          <tr id="hr-color">
+            <th>Horizontal Rule Color</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSeparator</code></td>
+            <td><code>#F5F6F7 (PORCELAIN)</code></td>
+            <td class="example">
+              <hr style="border-top-color: #F5F6F7;">
+            </td>
+            <td class="description">Only used on white, white lists, cards, etc.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSeparatorAlt</code></td>
+            <td><code>#DADEE2 (GEYSER)</code></td>
+            <td class="example">
+              <hr style="border-top-color: #DADEE2;">
+            </td>
+            <td class="description">Only used on app bgd and to seperate white &amp; app bgd</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSeparatorInverse</code></td>
+            <td><code>#34495E (GREY_ROYAL_BLUE)</code></td>
+            <td class="example">
+              <hr style="border-top-color: #34495E;">
+            </td>
+            <td class="description">Only used in stage left to seperate list items</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>colorBorderSeparatorInverseAlt</code></td>
+            <td><code>#2A4158 (DARK_GREY_ROYAL_BLUE)</code></td>
+            <td class="example">
+              <hr style="border-top-color: #2A4158;">
+            </td>
+            <td class="description">Use 'colorBorderSeparatorInverse' instead</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+
+          
+          <tr id="font">
+            <th>Font</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>fontFamilyBody</code></td>
+            <td><code>'ProximaNovaSoft-Regular' </code></td>
+            <td class="example">
+              <div style="font-family: 'ProximaNovaSoft-Regular';">Aa</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontFamilyStrong</code></td>
+            <td><code>'ProximaNovaSoft-Semibold' </code></td>
+            <td class="example">
+              <div style="font-family: 'ProximaNovaSoft-Semibold';">Aa</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+          <tr id="font-sizes">
+            <th>Font Sizes</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>fontSizeXxSmall</code></td>
+            <td><code>10px </code></td>
+            <td class="example">
+              <div style="font-size: 10px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeXSmall</code></td>
+            <td><code>13px </code></td>
+            <td class="example">
+              <div style="font-size: 13px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeSmall</code></td>
+            <td><code>14px </code></td>
+            <td class="example">
+              <div style="font-size: 14px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeMedium</code></td>
+            <td><code>15px </code></td>
+            <td class="example">
+              <div style="font-size: 15px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeLarge</code></td>
+            <td><code>16px </code></td>
+            <td class="example">
+              <div style="font-size: 16px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeXLarge</code></td>
+            <td><code>18px </code></td>
+            <td class="example">
+              <div style="font-size: 18px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeXlLarge</code></td>
+            <td><code>19px </code></td>
+            <td class="example">
+              <div style="font-size: 19px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description">508 size for top bar titles</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeRecordTitle</code></td>
+            <td><code>20px </code></td>
+            <td class="example">
+              <div style="font-size: 20px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description">Record home anchor title</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeXxLarge</code></td>
+            <td><code>22px </code></td>
+            <td class="example">
+              <div style="font-size: 22px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>fontSizeXxxLarge</code></td>
+            <td><code>25px </code></td>
+            <td class="example">
+              <div style="font-size: 25px;">The quick brown fox jumps over the lazy dog.</div>
+            </td>
+            <td class="description">Today card time</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+          <tr id="line-height">
+            <th>Line Heights</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>lineHeightHeading</code></td>
+            <td><code>1.25 </code></td>
+            <td class="example">
+              <div class="line-height-example" style="line-height: 1.25; background-size: 100% 1.25em">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum odio et lacus rutrum molestie. Nunc arcu enim, elementum id feugiat at, venenatis quis erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris sit amet commodo velit. In hac habitasse platea dictumst. Sed ac velit dolor.
+              </div>
+            </td>
+            <td class="description">Unitless line-heights for reusabliity</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>lineHeightText</code></td>
+            <td><code>1.5 </code></td>
+            <td class="example">
+              <div class="line-height-example" style="line-height: 1.5; background-size: 100% 1.5em">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum odio et lacus rutrum molestie. Nunc arcu enim, elementum id feugiat at, venenatis quis erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris sit amet commodo velit. In hac habitasse platea dictumst. Sed ac velit dolor.
+              </div>
+            </td>
+            <td class="description">Unitless line-heights for reusabliity</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+          <tr id="spacing">
+            <th>Spacing</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>spacingXxSmall</code></td>
+            <td><code>2px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 2px; height: 2px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>spacingXSmall</code></td>
+            <td><code>7px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 7px; height: 7px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>spacingSmall</code></td>
+            <td><code>8px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 8px; height: 8px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>spacingMedium</code></td>
+            <td><code>14px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 14px; height: 14px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>spacingLarge</code></td>
+            <td><code>18px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 18px; height: 18px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>spacingXLarge</code></td>
+            <td><code>28px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 28px; height: 28px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>borderWidthThin</code></td>
+            <td><code>1px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 1px; height: 1px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>borderWidthThick</code></td>
+            <td><code>2px </code></td>
+            <td class="example">
+              <div class="metric-box" style="width: 2px; height: 2px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+          <tr id="radius">
+            <th>Radius</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>borderRadiusSmall</code></td>
+            <td><code>3px </code></td>
+            <td class="example">
+              <div class="radius-box" style="border-radius: 3px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>borderRadiusMedium</code></td>
+            <td><code>5px </code></td>
+            <td class="example">
+              <div class="radius-box" style="border-radius: 5px;"></div>
+            </td>
+            <td class="description">Icons in lists, record home icon, unbound input elements</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>borderRadiusLarge</code></td>
+            <td><code>8px </code></td>
+            <td class="example">
+              <div class="radius-box" style="border-radius: 8px;"></div>
+            </td>
+            <td class="description"></td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>borderRadiusCircle</code></td>
+            <td><code>50% </code></td>
+            <td class="example">
+              <div class="radius-box" style="border-radius: 50%;"></div>
+            </td>
+            <td class="description">Circle for global use, action icon bgd shape</td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+          <tr id="misc">
+            <th>Miscellaneous</th>
+            <th>Value</th>
+            <th>Examples</th>
+            <th>Usage</th>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <tr>
+            <td><code>widthStageLeft</code></td>
+            <td><code>88% </code></td>
+            <td class="example"></td>
+            <td class="description">Stage left small form factor. NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>widthStageLeftTablet</code></td>
+            <td><code>250px </code></td>
+            <td class="example"></td>
+            <td class="description">Stage left medium form factor. NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>heightFooter</code></td>
+            <td><code>44px </code></td>
+            <td class="example"></td>
+            <td class="description">Action footer menu</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>heightHeader</code></td>
+            <td><code>42px </code></td>
+            <td class="example"></td>
+            <td class="description">Brand header</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>heightInput</code></td>
+            <td><code>30px </code></td>
+            <td class="example"></td>
+            <td class="description">Input and button height</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>heightOverflowStart</code></td>
+            <td><code>144px </code></td>
+            <td class="example"></td>
+            <td class="description">Space above overflow menu before scrolling.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>maxHeightActionOverflowMenu</code></td>
+            <td><code>628px </code></td>
+            <td class="example"></td>
+            <td class="description">Maximum height for action overflow menu so that it's not full-screen for tablet initially.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>maxHeightCardMedia</code></td>
+            <td><code>144px </code></td>
+            <td class="example"></td>
+            <td class="description">Maximum height for photos and such in cards.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>maxWidthActionBar</code></td>
+            <td><code>512px </code></td>
+            <td class="example"></td>
+            <td class="description">Maximum width for action icons in action bar.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>maxWidthActionBarWithLabels</code></td>
+            <td><code>320px </code></td>
+            <td class="example"></td>
+            <td class="description">Maximum width for action icons in action bar when there are only 2 items with labels.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>maxWidthActionOverflowMenu</code></td>
+            <td><code>512px </code></td>
+            <td class="example"></td>
+            <td class="description">Maximum width for action overflow menu so that it's not full-screen for tablet.</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>squareIconMedium</code></td>
+            <td><code>32px </code></td>
+            <td class="example"></td>
+            <td class="description">Medium tap target size</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>squareIconSmall</code></td>
+            <td><code>16px </code></td>
+            <td class="example"></td>
+            <td class="description">Small tap target size</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>squareRecordAnchorPic</code></td>
+            <td><code>48px </code></td>
+            <td class="example"></td>
+            <td class="description">Record home anchor pic</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>squareTappable</code></td>
+            <td><code>44px </code></td>
+            <td class="example"></td>
+            <td class="description">Tap target Size</td>
+          </tr>
+          
+          
+          
+          <tr>
+            <td><code>durationSlide</code></td>
+            <td><code>0.25s </code></td>
+            <td class="example"></td>
+            <td class="description">NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that.</td>
+          </tr>
+          
+          
+          
+        </table>
+      </main>
+    </div>
+
+    <footer role="contentinfo" class="contentinfo">
+      <div class="container">
+        <p>Build with <a href="https://github.com/salesforce-ux/theo">Theo</a> by Salesforce UX</p>
+      </div>
+    </footer>
+  </body>
+</html>
