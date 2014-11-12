@@ -10,8 +10,6 @@ The design properties are stored in an abstract JSON format and can be transform
 - iOS JSON
 - [HTML documentation](http://salesforce-ux.github.io/design-properties)
 
-An example for the HTML document
-
 ## Setup
 
 ### Dependencies
