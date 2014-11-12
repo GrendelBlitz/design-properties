@@ -1,16 +1,33 @@
 design-properties
 =================
 
+Salesforce1 design properties covering text colors, background color, font-sizes, fonts, spacings, borders etc.
+The design properties are stored in an abstract JSON format and can be transformed into various formats like:
+- [Sass](http://sass-lang.com/)
+- [Less](http://lesscss.org/)
+- [Stylus](http://learnboost.github.io/stylus/)
+- Android XML
+- iOS JSON
+- HTML documentation
+
+An example for the HTML document
+
 ## Setup
 
-    $ git clone https://github.com/salesforce-ux/design-properties.git
-    $ cd design-properties
-    $ npm install
-    $ gulp
+### Dependencies
 
 Please make sure to have [gulp.js](http://gulpjs.com/) installed globally.
 
     $ sudo npm install -g gulp
+
+### Clone and Run
+
+    $ git clone https://github.com/salesforce-ux/design-properties.git
+    $ cd design-properties
+    $ npm install .
+    $ gulp
+
+Please check the `./dist` directory for the output.
 
 ## License
 

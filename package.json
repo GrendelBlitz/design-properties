@@ -1,12 +1,12 @@
 {
-  "name": "s1variables",
+  "name": "designproperties",
   "version": "0.0.1",
   "engines": {
     "node": ">= 0.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.soma.salesforce.com/ux/s1variables.git"
+    "url": "https://github.com/salesforce-ux/design-properties.git"
   },
   "devDependencies": {
     "del": "^0.1.3",
