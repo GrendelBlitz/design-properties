@@ -8,181 +8,181 @@
         "name":"COLOR_TEXT_ACTION_LABEL",
         "value":"{!SLATE_GREY}",
         "category": "text-color",
-        "comment": "Action label text color"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_ACTION_LABEL_ACTIVE",
         "value":"{!NEVADA}",
         "category": "text-color",
-        "comment": "Action label active text color"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_ALT",
         "value":"{!BLUE_BAYOUX}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_BROWSER",
         "value":"{!WHITE}",
         "category": "text-color",
-        "comment": "Top bar icon color"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_BROWSER_ACTIVE",
         "value":"{!BLACK_TRANSPARENT_40}",
         "category": "text-color",
-        "comment": "Top bar active icon color"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_CUSTOMER",
         "value":"{!CALIFORNIA}",
         "category": "text-color",
-        "comment": "Customer text used in anchor subtitle"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_DEFAULT",
         "value":"{!CAPE_COD}",
         "category": "text-color",
-        "comment": "Body text color"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_ERROR",
         "value":"{!TALL_POPPY}",
         "category": "text-color",
-        "comment": "Error text for inputs and error misc"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_HEADING_WEAK",
         "value":"{!DEEP_CERULEAN}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_HINT",
         "value":"{!CASPER}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_INPUT_DISABLED",
         "value":"{!BLUE_BAYOUX}",
         "category": "text-color",
-        "comment": "Input disabled text"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_INPUT_FOCUS_INVERSE",
         "value":"{!DARK_GREY_ROYAL_BLUE}",
         "category": "text-color",
-        "comment": "Typed input text"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_INPUT_ICON",
         "value":"{!CASPER}",
         "category": "text-color",
-        "comment": "Input icon"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_INVERSE",
         "value":"{!WHITE}",
         "category": "text-color",
-        "comment": "Inverse text color for inverse backgrounds"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_INVERSE_ACTIVE",
         "value":"{!MALIBU}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_INVERSE_HOVER",
         "value":"{!CASPER}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_LABEL",
         "value":"{!NEVADA}",
         "category": "text-color",
-        "comment": "Form label text on app bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_LINK_ACTIVE",
         "value":"{!BAHAMA_BLUE}",
         "category": "text-color",
-        "comment": "Active link text"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_LINK_DISABLED",
         "value":"{!SLATE_GREY}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_LINK_HOVER",
         "value":"{!BAHAMA_BLUE}",
         "category": "text-color",
-        "comment": "Hover link text"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_MODAL",
         "value":"{!WHITE}",
         "category": "text-color",
-        "comment": "Modal header title"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_MODAL_BUTTON",
         "value":"{!NEVADA}",
         "category": "text-color",
-        "comment": "Modal header button text color"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_LINK",
         "value":"{!DEEP_CERULEAN}",
         "category": "text-color",
-        "comment": "Link text (508)"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_PLACEHOLDER",
         "value":"{!SLATE_GREY}",
         "category": "text-color",
-        "comment": "Input placeholder text"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_PLACEHOLDER_INVERSE",
         "value":"{!GEYSER}",
         "category": "text-color",
-        "comment": "Anchor subtitle"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_SECONDARY_BUTTON",
         "value":"{!BLUE_BAYOUX}",
         "category": "text-color",
-        "comment": "Secondary btn text"
+        "comment": ""
       },
       {
         "name": "COLOR_TEXT_SELECTION_HOVER",
         "value": "{!CURIOUS_BLUE}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_STAGE_LEFT",
         "value":"{!GEYSER}",
         "category": "text-color",
-        "comment": "Various stage left text elements"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_WARNING",
         "value":"{!TULIP_TREE}",
         "category": "text-color",
-        "comment": "Alert warning icon"
+        "comment": ""
       },
       {
         "name":"COLOR_TEXT_WEAK",
         "value":"{!NEVADA}",
         "category": "text-color",
-        "comment": "???"
+        "comment": ""
       },
 
 
@@ -191,103 +191,103 @@
         "name":"COLOR_BACKGROUND",
         "value":"{!PALE_ROYAL_BLUE}",
         "category": "background-color",
-        "comment": "S1 app background"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ACTIVE_INVERSE",
         "value":"{!PORCELAIN}",
         "category": "background-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ALT",
         "value":"{!WHITE}",
         "category": "background-color",
-        "comment": "Global use, card bgd, lists, action bar and overflow"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ALT_INVERSE",
         "value":"{!DARK_GREY_ROYAL_BLUE}",
         "category": "background-color",
-        "comment": "Stage left org switcher area bgd and seperators"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ANCHOR",
         "value":"{!GREY_ROYAL_BLUE}",
         "category": "background-color",
-        "comment": "Anchor bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BROWSER",
         "value":"{!SLATE_GREY}",
         "category": "background-color",
-        "comment": "Secondary top bar bgd (child browser, file preview, etc.)"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BROWSER_ACTIVE",
         "value":"{!PORCELAIN}",
         "category": "background-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_BRAND",
         "value":"{!CURIOUS_BLUE}",
         "category": "background-color",
-        "comment": "Brandable primary button"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_BRAND_ACTIVE",
         "value":"{!LOCHMARA}",
         "category": "background-color",
-        "comment": "Brandable active primary button"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_BRAND_HOVER",
         "value":"{!LOCHMARA}",
         "category": "background-color",
-        "comment": "Brandable hover primary button"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_COMMENT",
         "value":"{!LOCHMARA}",
         "category": "background-color",
-        "comment": "Comment Publisher button bgd (508)"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_COMMENT_ACTIVE",
         "value":"{!DEEP_CERULEAN}",
         "category": "background-color",
-        "comment": "Comment Publisher button active bgd (508)"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_DISABLED",
         "value":"{!PALE_ROYAL_BLUE}",
         "category": "background-color",
-        "comment": "Disabled grey buttons."
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_INVERSE",
         "value":"{!BLACK_TRANSPARENT_16}",
         "category": "background-color",
-        "comment": "Button backgrounds on inverse backgrounds"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_BUTTON_INVERSE_ACTIVE",
         "value":"{!BLACK_TRANSPARENT_24}",
         "category": "background-color",
-        "comment": "Active button backgrounds on inverse backgrounds"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_CUSTOMER",
         "value":"{!CALIFORNIA}",
         "category": "background-color",
-        "comment": "Customer bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ERROR",
         "value":"{!TALL_POPPY}",
         "category": "background-color",
-        "comment": "Minus error icon"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ERROR_ALT",
@@ -299,145 +299,145 @@
         "name":"COLOR_BACKGROUND_HIGHLIGHT",
         "value":"{!KOURNIKOVA}",
         "category": "background-color",
-        "comment": "Highlight text"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ICON_UTILITY",
         "value":"{!REGENT_GREY}",
         "category": "background-color",
-        "comment": "Action bar utility icon background"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INDICATOR_DOT",
         "value":"{!CASPER}",
         "category": "background-color",
-        "comment": "Indicator dot"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INPUT",
         "value":"{!WHITE}",
         "category": "background-color",
-        "comment": "Default input field"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INPUT_ACTIVE",
         "value":"{!WHITE}",
         "category": "background-color",
-        "comment": "Focused input field"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INPUT_DISABLED",
         "value":"{!GEYSER}",
         "category": "background-color",
-        "comment": "Disabled input"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INPUT_ERROR",
         "value":"{!POT_POURRI}",
         "category": "background-color",
-        "comment": "Input field error"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INPUT_SEARCH",
         "value":"{!BLACK_TRANSPARENT_16}",
         "category": "background-color",
-        "comment": "Only seen on object home"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_INVERSE",
         "value":"{!GREY_ROYAL_BLUE}",
         "category": "background-color",
-        "comment": "Stage left list items"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_MODAL",
         "value":"{!WHITE}",
         "category": "background-color",
-        "comment": "Standard modal header"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_MODAL_BRAND",
         "value":"{!CURIOUS_BLUE}",
         "category": "background-color",
-        "comment": "Brandable modal header"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_MODAL_BUTTON",
         "value":"{!BLACK_TRANSPARENT_07}",
         "category": "background-color",
-        "comment": "Button backgrounds on modal headers"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_MODAL_BUTTON_ACTIVE",
         "value":"{!BLACK_TRANSPARENT_16}",
         "category": "background-color",
-        "comment": "Active button backgrounds on modal headers"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_NOTIFICATION_BADGE",
         "value":"{!FUZZY_WUZZY_BROWN}",
         "category": "background-color",
-        "comment": "Notifications number badge bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_NOTIFICATION_NEW",
         "value":"{!FOAM}",
         "category": "background-color",
-        "comment": "New notification bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_ORG_SWITCHER_ARROW",
         "value":"{!PICKLED_BLUEWOOD}",
         "category": "background-color",
-        "comment": "Stage left org switcher drop ^ bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_PAYLOAD",
         "value":"{!PORCELAIN}",
         "category": "background-color",
-        "comment": "Payload bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_SHADE",
         "value":"{!CATSKILL_WHITE}",
         "category": "background-color",
-        "comment": "Visual app builder background"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_SUCCESS",
         "value":"{!CHATEAU_GREEN}",
         "category": "background-color",
-        "comment": "Check success icon"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_TEMP_MODAL",
         "value":"{!PICKLED_BLUEWOOD_TRANSPARENT_80}",
         "category": "background-color",
-        "comment": "Progress spinner bgd, user assistance bubble bgd, read only msg bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_TEMP_MODAL_TINT",
         "value":"{!PICKLED_BLUEWOOD_TRANSPARENT_30}",
         "category": "background-color",
-        "comment": "Action overflow shade for overlay."
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_TOAST",
         "value":"{!WHITE_TRANSPARENT_97}",
         "category": "background-color",
-        "comment": "toast bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BACKGROUND_WARNING",
         "value":"{!TULIP_TREE}",
         "category": "background-color",
-        "comment": "Warning background color — do we actually use this?"
+        "comment": ""
       },
       {
         "name":"COLOR_BRAND",
         "value":"{!CURIOUS_BLUE}",
         "category": "background-color",
-        "comment": "Brandable header"
+        "comment": ""
       },
 
 
@@ -446,55 +446,55 @@
         "name":"COLOR_BORDER",
         "value":"{!PORCELAIN}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_BORDER_BRAND",
         "value":"{!LOCHMARA}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name":"COLOR_BORDER_BUTTON_BROWSER",
         "value":"{!GEYSER}",
         "category": "border-color",
-        "comment": "Seconadary btn and primary/secondary disabled"
+        "comment": ""
       },
       {
         "name":"COLOR_BORDER_HINT",
         "value":"{!CAPE_COD}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name": "COLOR_BORDER_INPUT",
         "value":"{!TRANSPARENT}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name": "COLOR_BORDER_INPUT_ACTIVE",
         "value":"{!TRANSPARENT}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name": "COLOR_BORDER_SELECTION",
         "value":"{!DEEP_CERULEAN}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name": "COLOR_BORDER_SELECTION_ACTIVE",
         "value":"{!PALE_ROYAL_BLUE}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
       {
         "name": "COLOR_BORDER_SELECTION_HOVER",
         "value":"{!CURIOUS_BLUE}",
         "category": "border-color",
-        "comment": "???"
+        "comment": ""
       },
 
 
@@ -503,25 +503,25 @@
         "name":"COLOR_BORDER_SEPARATOR",
         "value":"{!PORCELAIN}",
         "category": "hr-color",
-        "comment": "Only used on white, white lists, cards, etc."
+        "comment": ""
       },
       {
         "name":"COLOR_BORDER_SEPARATOR_ALT",
         "value":"{!GEYSER}",
         "category": "hr-color",
-        "comment": "Only used on app bgd and to seperate white & app bgd"
+        "comment": ""
       },
       {
         "name":"COLOR_BORDER_SEPARATOR_INVERSE",
         "value":"{!GREY_ROYAL_BLUE}",
         "category": "hr-color",
-        "comment": "Only used in stage left to seperate list items"
+        "comment": ""
       },
       {
         "name":"COLOR_BORDER_SEPARATOR_INVERSE_ALT",
         "value":"{!DARK_GREY_ROYAL_BLUE}",
         "category": "hr-color",
-        "comment": "Use 'colorBorderSeparatorInverse' instead"
+        "comment": ""
       },
 
 
@@ -530,7 +530,7 @@
         "name": "SHADOW_ACTION_OVERFLOW_FOOTER",
         "value": "0 -2px 4px {!PORCELAIN}",
         "category": "shadow",
-        "comment": "Shadow above overflow menu close bar."
+        "comment": ""
       },
 
 
@@ -590,13 +590,13 @@
         "name":"FONT_SIZE_XL_LARGE",
         "value":"19px",
         "category": "font-size",
-        "comment": "508 size for top bar titles"
+        "comment": ""
       },
       {
         "name":"FONT_SIZE_RECORD_TITLE",
         "value":"20px",
         "category": "font-size",
-        "comment": "Record home anchor title"
+        "comment": ""
       },
       {
         "name":"FONT_SIZE_XX_LARGE",
@@ -608,7 +608,7 @@
         "name":"FONT_SIZE_XXX_LARGE",
         "value":"25px",
         "category": "font-size",
-        "comment": "Today card time"
+        "comment": ""
       },
 
 
@@ -617,13 +617,13 @@
         "name":"LINE_HEIGHT_HEADING",
         "value":"1.25",
         "category": "line-height",
-        "comment": "Unitless line-heights for reusabliity"
+        "comment": ""
       },
       {
         "name":"LINE_HEIGHT_TEXT",
         "value":"1.5",
         "category": "line-height",
-        "comment": "Unitless line-heights for reusabliity"
+        "comment": ""
       },
 
 
@@ -689,7 +689,7 @@
         "name":"BORDER_RADIUS_MEDIUM",
         "value":"5px",
         "category": "radius",
-        "comment": "Icons in lists, record home icon, unbound input elements"
+        "comment": ""
       },
       {
         "name":"BORDER_RADIUS_LARGE",
@@ -701,7 +701,7 @@
         "name":"BORDER_RADIUS_CIRCLE",
         "value":"50%",
         "category": "radius",
-        "comment": "Circle for global use, action icon bgd shape"
+        "comment": ""
       },
 
 
@@ -710,91 +710,91 @@
         "name": "WIDTH_STAGE_LEFT",
         "value": "88%",
         "category": "misc",
-        "comment": "Stage left small form factor. NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that."
+        "comment": ""
       },
       {
         "name":"WIDTH_STAGE_LEFT_TABLET",
         "value":"250px",
         "category": "misc",
-        "comment": "Stage left medium form factor. NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that."
+        "comment": ""
       },
       {
         "name":"HEIGHT_FOOTER",
         "value":"44px",
         "category": "misc",
-        "comment": "Action footer menu"
+        "comment": ""
       },
       {
         "name":"HEIGHT_HEADER",
         "value":"42px",
         "category": "misc",
-        "comment": "Brand header"
+        "comment": ""
       },
       {
         "name":"HEIGHT_INPUT",
         "value":"30px",
         "category": "misc",
-        "comment": "Input and button height"
+        "comment": ""
       },
       {
         "name": "HEIGHT_OVERFLOW_START",
         "value": "144px",
         "category": "misc",
-        "comment": "Space above overflow menu before scrolling."
+        "comment": ""
       },
       {
         "name":"MAX_HEIGHT_ACTION_OVERFLOW_MENU",
         "value":"628px",
         "category": "misc",
-        "comment": "Maximum height for action overflow menu so that it's not full-screen for tablet initially."
+        "comment": ""
       },
       {
         "name":"MAX_HEIGHT_CARD_MEDIA",
         "value":"144px",
         "category": "misc",
-        "comment": "Maximum height for photos and such in cards."
+        "comment": ""
       },
       {
         "name":"MAX_WIDTH_ACTION_BAR",
         "value":"512px",
         "category": "misc",
-        "comment": "Maximum width for action icons in action bar."
+        "comment": ""
       },
       {
         "name":"MAX_WIDTH_ACTION_BAR_WITH_LABELS",
         "value":"320px",
         "category": "misc",
-        "comment": "Maximum width for action icons in action bar when there are only 2 items with labels."
+        "comment": ""
       },
       {
         "name":"MAX_WIDTH_ACTION_OVERFLOW_MENU",
         "value":"512px",
         "category": "misc",
-        "comment": "Maximum width for action overflow menu so that it's not full-screen for tablet."
+        "comment": ""
       },
       {
         "name":"SQUARE_ICON_MEDIUM",
         "value":"32px",
         "category": "misc",
-        "comment": "Medium tap target size"
+        "comment": ""
       },
       {
         "name":"SQUARE_ICON_SMALL",
         "value":"16px",
         "category": "misc",
-        "comment": "Small tap target size"
+        "comment": ""
       },
       {
         "name":"SQUARE_RECORD_ANCHOR_PIC",
         "value":"48px",
         "category": "misc",
-        "comment": "Record home anchor pic"
+        "comment": ""
       },
       {
         "name":"SQUARE_TAPPABLE",
         "value":"44px",
         "category": "misc",
-        "comment": "Tap target Size"
+        "comment": ""
       },
 
 
@@ -803,7 +803,7 @@
         "name":"DURATION_SLIDE",
         "value":"0.25s",
         "category": "misc",
-        "comment": "NOTE: This is also in oneHelper.js for JavaScript, if you change this, change that."
+        "comment": ""
       }
     ]
   }
