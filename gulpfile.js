@@ -23,7 +23,13 @@ gulp.task('default', ['clean'], function() {
   if(!fs.existsSync('./dist')){
     fs.mkdirSync('./dist');
   }
-  theo.convert('./variables/*.json', './dist', {
+
+  var path = './variables/*.json';
+
+  // If you consume the design properties via NPM the path would be:
+  // var path = './node_modules/design-properties/variables/*.json'
+
+  theo.convert(path, './dist', {
     templates: ['styl', 'html', 'less', 'scss', 'ios.json', 'android.xml'],
   });
 });

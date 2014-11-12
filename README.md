@@ -1,8 +1,8 @@
-design-properties
+Design Properties
 =================
 
-Salesforce1 design properties covering text colors, background color, font-sizes, fonts, spacings, borders etc.
-The design properties are stored in an abstract JSON format and can be transformed into various formats like:
+Salesforce1 Design Properties covers text colors, background colors, font sizes, font faces, spacing, borders, etc.
+The Design Properties are stored in an abstract JSON format and can be transformed into other formats like:
 - [Sass](http://sass-lang.com)
 - [Less](http://lesscss.org)
 - [Stylus](http://learnboost.github.io/stylus)
@@ -10,11 +10,13 @@ The design properties are stored in an abstract JSON format and can be transform
 - iOS JSON
 - [HTML documentation](http://salesforce-ux.github.io/design-properties)
 
+This first public release of the Design Properties reflects the current [Winter '15 release](http://www.salesforce.com/customer-resources/releases/winter15/). It will be updated with new releases while older ones will be branched off.
+
 ## Setup
 
 ### Dependencies
 
-Please make sure to have [gulp.js](http://gulpjs.com/) installed globally.
+Please make sure to have [gulp.js](http://gulpjs.com/) installed globally:
 
     $ sudo npm install -g gulp
 
@@ -26,6 +28,27 @@ Please make sure to have [gulp.js](http://gulpjs.com/) installed globally.
     $ gulp
 
 Please check the `./dist` directory for the output.
+
+### NPM
+
+The Design Properties are available via NPM:
+
+    $ npm install design-properties
+
+### Gulp
+
+You can make the Design Properties part of your gulp.js build script:
+
+    var gulp = require('gulp');
+    var theo = require('theo');
+
+    gulp.task('default', ['clean'], function(){
+      var path = './node_modules/design-properties/variables/*.json'
+
+      theo.convert(path, './dist', {
+        templates: ['styl', 'html', 'less', 'scss', 'ios.json', 'android.xml'],
+      });
+    });
 
 ## License
 
