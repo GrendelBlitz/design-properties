@@ -3,12 +3,12 @@ design-properties
 
 Salesforce1 design properties covering text colors, background color, font-sizes, fonts, spacings, borders etc.
 The design properties are stored in an abstract JSON format and can be transformed into various formats like:
-- [Sass](http://sass-lang.com/)
-- [Less](http://lesscss.org/)
-- [Stylus](http://learnboost.github.io/stylus/)
+- [Sass](http://sass-lang.com)
+- [Less](http://lesscss.org)
+- [Stylus](http://learnboost.github.io/stylus)
 - Android XML
 - iOS JSON
-- HTML documentation
+- [HTML documentation](http://salesforce-ux.github.io/design-properties)
 
 An example for the HTML document
 
