@@ -2,7 +2,7 @@ Design Properties
 =================
 
 Salesforce1 Design Properties covers text colors, background colors, font sizes, font faces, spacing, borders, etc.
-The Design Properties are stored in an abstract JSON format and can be transformed into other formats like:
+The Design Properties are stored in an abstract JSON format and can be transformed with [theo](https://github.com/salesforce-ux/theo) into other formats like:
 - [Sass](http://sass-lang.com)
 - [Less](http://lesscss.org)
 - [Stylus](http://learnboost.github.io/stylus)
