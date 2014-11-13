@@ -1,0 +1,842 @@
+{
+  "theme": {
+    "properties": [
+      {
+        "name": "ACTION_APPROVAL",
+        "value": "#00C6B7",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_CANVASAPP",
+        "value": "#8199AF",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_GOAL",
+        "value": "#56AADF",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_OPPORTUNITY_COMPETITOR",
+        "value": "#FCB95B",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_OPPORTUNITY_LINE_ITEM",
+        "value": "#FCB95B",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_OPPORTUNITY_TEAM_MEMBER",
+        "value": "#FCB95B",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_QUESTION_POST_ACTION",
+        "value": "#32AF5C",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_QUOTE",
+        "value": "#88C651",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_REJECT",
+        "value": "#00C6B7",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SOCIAL_POST",
+        "value": "#EA74A2",
+        "category": "background-color"
+      },
+
+      {
+        "name": "ACTION_FALLBACK",
+        "value": "#9895EE",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_EDIT",
+        "value": "#1DCCBF",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DELETE",
+        "value": "#E6717C",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_CLONE",
+        "value": "#6CA1E9",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_FOLLOW",
+        "value": "#31B9F8",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_FOLLOWING",
+        "value": "#7DCF64",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_JOIN_GROUP",
+        "value": "#779EF2",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_LEAVE_GROUP",
+        "value": "#F39E58",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_EDIT_GROUP",
+        "value": "#34BECD",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SHARE_POST",
+        "value": "#65CAE4",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SHARE_FILE",
+        "value": "#BAAC93",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_TASK",
+        "value": "#4BC076",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_CONTACT",
+        "value": "#A094ED",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_OPPORTUNITY",
+        "value": "#FCB95B",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_CASE",
+        "value": "#F2CF5B",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_LEAD",
+        "value": "#F88962",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SHARE_THANKS",
+        "value": "#E9696E",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SHARE_LINK",
+        "value": "#7A9AE6",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SHARE_POLL",
+        "value": "#699BE1",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_EVENT",
+        "value": "#EB7092",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_CHILD_CASE",
+        "value": "#FA975C",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_LOG_A_CALL",
+        "value": "#48C3CC",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_NOTE",
+        "value": "#E6D478",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW",
+        "value": "#33BCE7",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_FILTER",
+        "value": "#FD90B5",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SORT",
+        "value": "#FAB9A5",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DESCRIPTION",
+        "value": "#7DC37D",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DEFER",
+        "value": "#EF7EAD",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_UPDATE",
+        "value": "#81B4D6",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_LOG_THIS_EVENT",
+        "value": "#F86268",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_EMAIL",
+        "value": "#95AEC5",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DIAL_IN",
+        "value": "#8B9AE3",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_MAP",
+        "value": "#76C6EE",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_CALL",
+        "value": "#1FCAA0",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_GOOGLE_NEWS",
+        "value": "#F5675B",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_WEB_LINK",
+        "value": "#56AADF",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SUBMIT_FOR_APPROVAL",
+        "value": "#50CC7A",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_SEARCH",
+        "value": "#48ADEB",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_CLOSE",
+        "value": "#EF6E64",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_BACK",
+        "value": "#0DC2D9",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_OFFICE_365",
+        "value": "#FF8041",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_CHATTERBOX",
+        "value": "#5BB6EE",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_CONCUR",
+        "value": "#4CC3C7",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DROPBOX",
+        "value": "#52AEF9",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_EVERNOTE",
+        "value": "#86C86F",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DOCUSIGN",
+        "value": "#5080DB",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_MORE",
+        "value": "#62B7ED",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NOTEBOOK",
+        "value": "#C871D6",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_PREVIEW",
+        "value": "#7F8DE1",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_PRIORITY",
+        "value": "#FBB439",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_DEFAULT_CUSTOM_OBJECT",
+        "value": "#8199af",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_CUSTOM_OBJECT",
+        "value": "#a7d44d",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_LEAD_CONVERT",
+        "value": "#f88962",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_ACCOUNT",
+        "value": "#7f8de1",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_CAMPAIGN",
+        "value": "#f49756",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_NEW_GROUP",
+        "value": "#83b6ff",
+        "category": "background-color"
+      },
+      {
+        "name": "ACTION_UPDATE_STATUS",
+        "value": "#1ec7be",
+        "category": "background-color"
+      },
+      {
+        "name":"ACTION_NEW_CUSTOM1",
+        "value":"#ff7b84",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM2",
+        "value":"#cfd05c",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM3",
+        "value":"#ecb46c",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM4",
+        "value":"#e1d951",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM5",
+        "value":"#9fdb66",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM6",
+        "value":"#54c473",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM7",
+        "value":"#6a89e5",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM8",
+        "value":"#50ceb9",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM9",
+        "value":"#6b9ee2",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM10",
+        "value":"#6488e3",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM11",
+        "value":"#8784ea",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM12",
+        "value":"#dc71d1",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM13",
+        "value":"#df6184",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM14",
+        "value":"#3cc2b3",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM15",
+        "value":"#f77e75",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM16",
+        "value":"#e9af67",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM17",
+        "value":"#acd360",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM18",
+        "value":"#4dca76",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM19",
+        "value":"#3abeb1",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM20",
+        "value":"#48c7c8",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM21",
+        "value":"#8a7aed",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM22",
+        "value":"#8b85f9",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM23",
+        "value":"#b070e6",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM24",
+        "value":"#e56798",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM25",
+        "value":"#e46fbe",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM26",
+        "value":"#7698f0",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM27",
+        "value":"#5ab0d2",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM28",
+        "value":"#89c059",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM29",
+        "value":"#bdd25f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM30",
+        "value":"#f59f71",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM31",
+        "value":"#eb687f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM32",
+        "value":"#38c393",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM33",
+        "value":"#97cf5d",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM34",
+        "value":"#d58a6a",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM35",
+        "value":"#e9637e",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM36",
+        "value":"#d472d4",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM37",
+        "value":"#8c89f2",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM38",
+        "value":"#53b6d7",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM39",
+        "value":"#4fbe75",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM40",
+        "value":"#83c75e",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM41",
+        "value":"#43b5b5",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM42",
+        "value":"#cfd05b",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM43",
+        "value":"#7f93f9",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM44",
+        "value":"#c8ca58",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM45",
+        "value":"#d95879",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM46",
+        "value":"#67a5e7",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM47",
+        "value":"#5fcc64",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM48",
+        "value":"#ef697f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM49",
+        "value":"#e25c80",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM50",
+        "value":"#49bcd3",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM51",
+        "value":"#d8c760",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM52",
+        "value":"#ee8e6f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM53",
+        "value":"#f36e83",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM54",
+        "value":"#ea70b1",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM55",
+        "value":"#d66ee0",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM56",
+        "value":"#718deb",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM57",
+        "value":"#5a9cdd",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM58",
+        "value":"#34b59d",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM59",
+        "value":"#e3d067",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM60",
+        "value":"#bf5a88",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM61",
+        "value":"#f57376",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM62",
+        "value":"#6b92dc",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM63",
+        "value":"#7ccf60",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM64",
+        "value":"#618fd8",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM65",
+        "value":"#f279ab",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM66",
+        "value":"#d8be5f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM67",
+        "value":"#f87d76",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM68",
+        "value":"#f26979",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM69",
+        "value":"#ed6387",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM70",
+        "value":"#e769b4",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM71",
+        "value":"#e36ee3",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM72",
+        "value":"#8d9bfb",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM73",
+        "value":"#679ef0",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM74",
+        "value":"#41c8a0",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM75",
+        "value":"#cd9f65",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM76",
+        "value":"#db6d7a",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM77",
+        "value":"#b55d5b",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM78",
+        "value":"#5a95dd",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM79",
+        "value":"#8ed363",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM80",
+        "value":"#659ad5",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM81",
+        "value":"#da627f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM82",
+        "value":"#d15b97",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM83",
+        "value":"#e7806f",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM84",
+        "value":"#f6707b",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM85",
+        "value":"#f26891",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM86",
+        "value":"#e260ab",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM87",
+        "value":"#d876e5",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM88",
+        "value":"#996fe6",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM89",
+        "value":"#3e99be",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM90",
+        "value":"#22a48a",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM91",
+        "value":"#bf7b66",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM92",
+        "value":"#517e82",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM93",
+        "value":"#904d4c",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM94",
+        "value":"#439cba",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM95",
+        "value":"#8bcf6a",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM96",
+        "value":"#6d9de3",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM97",
+        "value":"#dd6085",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM98",
+        "value":"#e1be5c",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM99",
+        "value":"#f0856e",
+        "category":"background-color"
+     },
+     {
+        "name":"ACTION_NEW_CUSTOM100",
+        "value":"#e15d76",
+        "category":"background-color"
+     }
+    ]
+  }
+}
