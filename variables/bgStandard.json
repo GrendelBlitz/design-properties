@@ -82,11 +82,6 @@
             "category":"background-color"
          },
          {
-            "name":"CHATTERBOX",
-            "value":"#5BB6EE",
-            "category":"background-color"
-         },
-         {
             "name":"COACHING",
             "value":"#F67594",
             "category":"background-color"
@@ -380,6 +375,17 @@
             "name":"UNMATCHED",
             "value":"#62B7ED",
             "category":"background-color"
+         },
+         {
+            "name":"MARKETING_ACTIONS",
+            "value":"#6bbd6e",
+            "category":"background-color"
+         },
+         {
+            "name":"MARKETING_RESOURCES",
+            "value": "#000000",
+            "category": "background-color",
+            "comment": "no color needed. black is just a placeholder."
          }
       ]
    }

@@ -10,7 +10,7 @@ The Design Properties are stored in an abstract JSON format and can be transform
 - iOS JSON
 - [HTML documentation](http://salesforce-ux.github.io/design-properties)
 
-This first public release of the Design Properties reflects the current [Winter '15 release](http://www.salesforce.com/customer-resources/releases/winter15/). It will be updated with new releases while older ones will be branched off.
+This first public release of the Design Properties reflects the current [Spring '15 release](http://www.salesforce.com/customer-resources/releases/spring15/). It will be updated with new releases while older ones will be branched off.
 
 ## Setup
 
