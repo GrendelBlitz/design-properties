@@ -10,7 +10,7 @@ The Design Properties are stored in an abstract JSON format and can be transform
 - iOS JSON
 - [HTML documentation](http://salesforce-ux.github.io/design-properties)
 
-This first public release of the Design Properties reflects the current [Spring '15 release](http://www.salesforce.com/customer-resources/releases/spring15/). It will be updated with new releases while older ones will be branched off.
+This first public release of the Design Properties reflects the [Spring '15 release](http://www.salesforce.com/customer-resources/releases/spring15/).
 
 ## Setup
 
@@ -39,16 +39,18 @@ The Design Properties are available via NPM:
 
 You can make the Design Properties part of your gulp.js build script:
 
-    var gulp = require('gulp');
-    var theo = require('theo');
+```js
+var gulp = require('gulp');
+var theo = require('theo');
 
-    gulp.task('default', ['clean'], function(){
-      var path = './node_modules/design-properties/variables/*.json'
+gulp.task('default', ['clean'], function(){
+  var path = './node_modules/design-properties/variables/*.json'
 
-      theo.convert(path, './dist', {
-        templates: ['styl', 'html', 'less', 'scss', 'ios.json', 'android.xml'],
-      });
-    });
+  theo.convert(path, './dist', {
+    templates: ['styl', 'html', 'less', 'scss', 'ios.json', 'android.xml'],
+  });
+});
+```
 
 ## License
 
