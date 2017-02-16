@@ -1,6 +1,8 @@
 Design Properties
 =================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/salesforce-ux/design-properties.svg)](https://greenkeeper.io/)
+
 Salesforce1 Design Properties covers text colors, background colors, font sizes, font faces, spacing, borders, etc.
 The Design Properties are stored in an abstract JSON format and can be transformed with [theo](https://github.com/salesforce-ux/theo) into other formats like:
 - [Sass](http://sass-lang.com)
